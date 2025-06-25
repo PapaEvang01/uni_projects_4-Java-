@@ -1,0 +1,32 @@
+In my early years of university, I had the opportunity to explore some ideas in Java programming and graph theory.
+
+I created a small but complete project that demonstrates fundamental graph concepts and algorithms. The main idea was to build a random graph, 
+apply classic graph algorithms, and visualize the results.
+
+The project follows these steps:
+
+1. **Graph Creation**  
+   A graph is generated using randomness to determine nodes and edges. This is handled in the `create_the_graph.java` file, 
+where I build both directed and undirected graphs with weighted edges.
+
+2. **Edge Representation**  
+   Every edge includes a weight (cost), encapsulated in the `Edge.java` class.
+
+3. **Graph Algorithms**  
+   I implemented Breadth-First Search (BFS) and Depth-First Search (DFS) in the `GraphAlgorithms.java` file.
+Both traversals start from a random node and help understand the structure of the graph.
+
+4. **Shortest Path Calculation (Dijkstra's Algorithm)**  
+   Using Dijkstra’s algorithm, implemented in the `Dijkstra.java` file, the program computes the shortest 
+paths from the starting node to all others.
+
+5. **Minimum Spanning Tree (Prim's Algorithm)**  
+   The `MST.java` file includes Prim’s algorithm to generate a minimum spanning tree and calculate its total cost.
+
+6. **Graph Visualization**  
+   All graph stages (initial structure, BFS path, DFS path, Dijkstra paths, and MST) are exported in DOT format and 
+rendered into PNG images using Graphviz. The final output combines all the images into a single vertical summary.
+
+This project helped me solidify my understanding of graph traversal and pathfinding, while also giving me hands-on experience with data structures, 
+Java collections, and basic visualization pipelines using Graphviz.
+
