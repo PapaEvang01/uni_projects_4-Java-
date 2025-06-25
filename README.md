@@ -66,6 +66,6 @@ A **command-line chat system** built using **Java Sockets**. Users can join a sh
 
 ## 👨‍💻 Author
 
-**Vaggelis Paps**  
+**Vaggelis Papaioannou**  
 Department of Electrical & Computer Engineering  
 Democritus University of Thrace
