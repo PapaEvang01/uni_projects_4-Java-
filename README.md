@@ -1,7 +1,7 @@
 # 🎓 Java Projects – Foundations in Algorithms & Networking
 
 These Java projects were developed during my early university years at the **Department of Electrical and Computer Engineering, Democritus University of Thrace**.  
-They reflect my first structured exposure to **graph algorithms**, **data structures**, and **socket-based networking**.
+They reflect my first structured exposure to graph algorithms, data structures, and socket-based networking, and were fully implemented using the Eclipse IDE workspace.
 
 ---
 
@@ -61,11 +61,14 @@ A **command-line chat system** built using **Java Sockets**. Users can join a sh
 - File-based data management
 - Real-time network communication
 - DOT language & Graphviz visualization
+- Eclipse workspace project organization
+
+
 
 ---
 
 ## 👨‍💻 Author
 
-**Vaggelis Papaioannou**  
+**Evangelos Papaioannou**  
 Department of Electrical & Computer Engineering  
 Democritus University of Thrace
