@@ -1,0 +1,66 @@
+=====================================================================
+ Java Socket Group Chat App - My Second Java Project (University )
+=====================================================================
+
+Here is my second project in Java programming during my second year of university.  
+Through this project, I learned how to implement real-time communication using sockets,  
+manage multiple users with threads, and create a simple login/register system without a database.  
+It was a great way to deepen my understanding of Java networking, file I/O, and thread management.
+
+------------------------------------------------------
+💡 Project Overview
+------------------------------------------------------
+This is a command-line group chat application built in Java using TCP sockets.
+Each client can join the chat by logging in or registering. Messages are broadcast to all clients.
+The server handles each client in a separate thread.
+
+This project was developed in the Eclipse IDE and uses the default Eclipse workspace structure.
+
+
+------------------------------------------------------
+🛠️ Features
+------------------------------------------------------
+✔️ Multiple users chat in real time  
+✔️ Simple login/register using users.txt  
+✔️ Welcome banner when a user joins  
+✔️ Timestamps on every message  
+✔️ Type '/exit' to gracefully leave the chat
+
+------------------------------------------------------
+📂 Folder Structure
+------------------------------------------------------
+Chat_app/
+└── src/
+    └── chat/
+        ├── ChatServer.java
+        ├── ChatClient.java
+        ├── ClientHandler.java
+        └── users.txt (automatically created)
+
+------------------------------------------------------
+🖥️ How to Compile & Run
+------------------------------------------------------
+
+1️⃣ Open CMD and navigate to the project directory:
+    cd C:\Users\....
+
+2️⃣ Compile all source files:
+    javac chat\*.java
+
+3️⃣ Start the server:
+    java chat.ChatServer
+
+4️⃣ Open a new CMD window for each client:
+    java chat.ChatClient
+
+🚪 To exit the chat at any time, type:
+    /exit
+
+------------------------------------------------------
+📌 Notes
+------------------------------------------------------
+- The server must be started first before any client connects.
+- Communication is over localhost (127.0.0.1:5000).
+- User data is stored in `users.txt` in plain text (for simplicity).
+
+Enjoy using it! ☕🎓
